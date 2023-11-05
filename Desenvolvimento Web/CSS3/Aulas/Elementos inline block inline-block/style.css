@@ -1,0 +1,7 @@
+.borda{
+    border: 1px solid crimson; 
+}
+.borda2{
+    border: 1px solid crimson; 
+    display: inline-block;
+}

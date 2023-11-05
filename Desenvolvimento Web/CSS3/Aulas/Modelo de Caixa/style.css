@@ -1,0 +1,21 @@
+.conteudo{
+    border: 1px solid red;
+    padding-top: 20px;  /* padding edita o tamanho interto da box  */
+    padding-right:20px ; 
+    padding-bottom: 20px;
+    padding-left: 20px;
+    /* padding: 20px 20px 20px 20px; outra forma de fazer */
+
+    margin: 20px; /* margin edita o tamanho fora da box */
+    /* As margin se sobrepoem, caso 2 box tenha uma de 30 px e outra de 20px o final fica 30px por ser o maior, isso se chama "margin-collapse" */
+
+    width: 150px;
+}
+
+#noticia{
+    background-color:deepskyblue;
+    padding: 10px;
+}
+h2{
+    margin: 0px; /* o h2 ja vem com margin propia, aqui ela foi retira para não se somar com o padding de noticia */
+}

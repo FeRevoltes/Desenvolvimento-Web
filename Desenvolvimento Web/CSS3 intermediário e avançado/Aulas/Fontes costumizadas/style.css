@@ -1,0 +1,140 @@
+/* Formatação */
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+body {
+  background: black;
+  background-size: cover;
+}
+h1 {
+  color: tomato;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face{
+  font-family: "Night mare";
+  src: url(fontes/Nightmare-in-Bolloland.woff);
+}
+@font-face{
+  font-family: "sei la";
+  src: url(fontes/NT-Adventure-_only-personal-use_.woff);
+}
+@font-face{
+  font-family: "Andarion";
+  src: url(fontes/Andarion-Regular.woff);
+}
+
+/* Cabeçalho */
+header {
+  background: darkslateblue url(imagem/fundo-opacoroxo.jpg);
+  height: 150px;
+}
+#top {
+  margin: 0 20%;
+  height: 130px;
+  min-width: 720px;
+}
+#top img {
+  float: left;
+  width: 120px;
+  height: 120px;
+}
+#top h1 {
+  font-size: 7em;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: "Night mare", sans-serif;
+}
+
+/* Main */
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Main SideNav */
+#sidenav {
+  background: tomato;
+  font-size: 1.2em;
+  width: 200px;
+  min-width: 200px;
+  text-indent: 30px;
+  line-height: 50px;
+}
+#sidenav h2 {
+  text-transform: uppercase;
+}
+#sidenav li:hover {
+  background: darkslateblue;
+}
+#sidenav a {
+  color: black;
+  text-transform: uppercase;
+}
+#sidenav hr {
+  color: black;
+}
+
+/* Main Content */
+#content {
+  background: dodgerblue;
+  width: 97%;
+  margin: 0 20px;
+  padding: 10px;
+}
+#content h2 {
+  font-family: "sei la";
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+#content p {
+  color: lawngreen;
+  font-family: "Andarion";
+  text-align: justify;
+  margin: 10px 0;
+}
+
+/* Main Gallary */
+#community-gallary {
+  background: url(imagem/communityFundo.jpg);
+  color: lightgreen;
+  margin-left: 20px;
+  width: 280px;
+  padding: 10px;
+}
+#community-gallary img {
+  border: 2px solid lightgreen;
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+}
+#community-gallary h2 {
+  text-transform: uppercase;
+}
+#community-gallary p {
+  margin: 10px 0 5px;
+  cursor: pointer;
+}
+#community-gallary h3 {
+  font-size: 0.8em;
+  color: dodgerblue;
+}
+#community-gallary .post-community:hover img {
+  border: 2px solid tomato;
+}
+#community-gallary .post-community:hover p {
+  color: tomato;
+}
+
+/* footer */
+footer {
+  clear: both;
+}

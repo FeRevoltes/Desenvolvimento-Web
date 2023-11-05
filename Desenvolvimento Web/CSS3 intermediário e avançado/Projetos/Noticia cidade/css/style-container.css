@@ -1,0 +1,65 @@
+/* Estrutua do site */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: white url(../imagens/fundo.png) repeat-x;
+}
+
+#container{
+    width: 1250px;
+    margin: auto;
+}
+#topo{
+    height: 150px;
+    padding-top: 25px;
+    background: url(../imagens/detalhe-topo.png) no-repeat top right;
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -500px;
+}
+
+/* conteudo */
+#conteudo{
+    margin-top: 60px;
+    background: rgb(230, 230, 230);
+}
+#lateral{
+    width: 320px;
+    float: left;
+    margin: 0 0 20px -1250px;
+}
+#primario{
+    width: 420px;
+    float: left;
+    margin: 0 0 20px 365px;
+}
+#duas-colunas #primario{
+    width: 885px;
+}
+#uma-coluna #primario{
+    width: 1250px;
+    margin: 0 0 20px 0px;
+}
+#secundario{
+    width: 420px;
+    float: left;
+    margin: 0 0 20px 45px;
+}
+
+/* rodape */
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+    clear: both;
+}
+#rodape{
+    width: 1250px;
+    margin: 0 auto;
+    color: white;
+}

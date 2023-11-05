@@ -1,0 +1,37 @@
+
+/* .caixa{
+    width: 400px;
+    background: #dedede url(imagem/arquivos-necessarios-arredondamento-com-imagens/topo.png) no-repeat left top;
+}
+.caixa h2{
+    padding: 10px 20px 0 20px;
+}
+.caixa p{
+    padding: 0px 20px 20px 20px;
+    background: url(imagem/arquivos-necessarios-arredondamento-com-imagens/baixo.png) no-repeat left bottom;
+} */
+
+/* .caixa {
+    width: 400px;
+    background: url(imagem/arquivos-necessarios-arredondamento-com-imagens/fundo-arredondamento.png) repeat-y;
+}
+
+.caixa h2{
+    padding: 10px 20px 0 20px;
+    background: url(imagem/arquivos-necessarios-arredondamento-com-imagens/topo2.png) no-repeat left top;
+}
+
+.caixa p{
+    padding: 0px 20px 20px 20px;
+    background: url(imagem/arquivos-necessarios-arredondamento-com-imagens/baixo2.png) no-repeat left bottom;
+} */
+
+.caixa{
+    width: 400px;
+    padding: 10px 20px 20px 20px;
+    border-radius: 40px;
+    background: #e0e0e0;
+    box-shadow:  12px 12px 20px #cacaca,
+                 -12px -12px 20px #f6f6f6;             
+}
+

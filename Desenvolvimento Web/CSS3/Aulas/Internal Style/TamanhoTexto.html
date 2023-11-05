@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Texto</title>
+        <style type="text/css">
+            .textopx{
+                /* 
+                px -> tamanho fixo
+                % -> tamanho relativo
+                em -> tamnaho relativo ao container pai
+                */
+                font-size: 16px;
+            }
+
+            .textoP{
+                font-size: 200%;
+            }
+
+            #textdiv {
+                font-size: 16px;
+            }
+
+            .textoem{
+                font-size: 1em;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <p class="textopx">Conteúdo</p>
+        <p class="textoP">Conteúdo</p>
+
+        <div id="textdiv"> <!--div é o conteiner pai, manda no 'em'-->
+            <p class="textoem">Conteúdo</p>
+        </div>
+    </body>
+</html>

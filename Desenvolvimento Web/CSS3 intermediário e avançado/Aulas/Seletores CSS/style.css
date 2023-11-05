@@ -1,0 +1,36 @@
+*{ /* seletor universal */
+    border-left: 1px dotted violet;
+}
+
+h1{ /* Seletor de texto */
+ color: lightgreen;
+}
+
+.azul{ /* Seletor de classe */
+    color:deepskyblue;
+}
+p.azul{ /* apenas elemento <p> que tenha a classe azul */
+    font-size: 2em;
+}
+
+#cabeçalho{ /* Seletor de ID */
+    border: 1px solid cyan;
+    text-decoration: none;
+}
+
+li>a { /* Seletor de filho */
+    color: red;
+    text-decoration: none;
+}
+
+li p { /* Seletor de descendente */
+    color: gold;
+}
+
+h2 + p{ /* Seletor de irmão adjacente, apenas irmão posterior */
+    color: blueviolet;
+}
+
+h3 ~ p{ /* Seletor de irmão geral, apenas irmão posterior */
+    color:darkorange;
+}

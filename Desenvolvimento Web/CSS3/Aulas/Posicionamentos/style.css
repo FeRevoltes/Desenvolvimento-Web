@@ -1,0 +1,47 @@
+body{
+    background: deepskyblue;
+}
+
+h1{
+    position: static;
+}
+p{
+    width: 300px;
+}
+
+#container{
+    background: white;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative; /* para mudar o absolute */
+}
+
+/* posicionamento static é o padrão aplicado aos elementos */
+/* quando usar posição relativa é necessário propriedades de deslocamentos como top, right, botton, left */
+.relative{
+    border: 1px solid crimson;
+    position: relative;
+    top: -20px;
+    left: 80px; 
+    /* right: 10px;
+    bottom: 10px; */
+}
+
+
+/* A posição absolute é calculada em relação ao container se tiver uma posição, caso o contrario ele é posicionado em relação ao corpo "body"*/
+.absolute{
+    border: 1px solid lightgreen;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+/* fixa na tela, referente ao lado que colocar */
+.fixed{
+    border: 1px solid blueviolet;
+    position: fixed;
+    margin: 0px; /* apenas para tirar a margin */
+    bottom:  0px;
+    right: 0px;
+}

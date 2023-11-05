@@ -1,0 +1,26 @@
+body{
+    background: #f4f4f4;
+}
+#principal{
+    width: 900px;
+    border: 1px solid crimson;
+}
+
+.noticia{
+    background-color:whitesmoke ;
+    padding: 5px;
+    width: 280px;
+    margin: 5px;
+    float: left;
+}
+.imagem-galeria img{
+    background: white;
+    width: 280px;
+    height: 214px;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
+.clear{
+    clear: both;
+}

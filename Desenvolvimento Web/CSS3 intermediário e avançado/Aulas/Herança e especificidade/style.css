@@ -1,0 +1,36 @@
+
+body{
+    border: 1px solid deepskyblue;
+    color: crimson;
+    background: gainsboro;
+}
+
+#pagina p{
+    color: violet !important; /* important ele define o quão importe é uma propiedade, recomendado usar com cautela */
+}
+
+#pagina p{
+    color: deepskyblue ; /* e 2 seletores iguais, sempre a última regra é aplicada */
+}
+
+#pagina p{
+    color: lightgreen;
+}
+
+/* se um seletor for mais específico que outro a regra mais específica será aplicada (terá precedência sobre regras mais gerais) */
+
+* {
+    color: red;
+}
+
+h2{ /* mais específico */
+    color: blue
+}
+
+h2.verde{ /* bem mais específico */
+    color: green;
+}
+
+h2#amarelo{ /* #id bem mais específico que .class */
+    color: yellow;
+}

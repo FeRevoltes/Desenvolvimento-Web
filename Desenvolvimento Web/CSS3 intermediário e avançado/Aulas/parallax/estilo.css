@@ -1,0 +1,66 @@
+body,
+html {
+  color: #777;
+  font: 16px "lato", sans-serif;
+  margin: 0;
+  height: 100%; /* para a imagem sempre ocupar a tela inteira do usuario */
+  /* border: 1px solid crimson; */
+}
+h3 {
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  margin-bottom: 20px;
+}
+
+.conteudo {
+  background: white;
+  text-align: justify;
+  padding: 70px 80px;
+}
+
+/* Efeito Parallax */
+.caixa1 {
+  background: url(imagem/imagem1.jpg);
+}
+.caixa2 {
+  background: url(imagem/imagem2.jpg);
+}
+.caixa3 {
+  background: url(imagem/imagem5.jpg);
+}
+.caixa4 {
+  background: url(imagem/imagem6.jpg);
+}
+
+.caixa1,
+.caixa2,
+.caixa3,
+.caixa4 {
+  position: relative;
+  height: 100%; /* ocupa 100% da tela cada caixa*/
+  opacity: 0.8; /* 0 não aparece, 1 aparece tudo */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* conteudo */
+.conteudo-titulo {
+  position: absolute;
+  left: 0;
+  top: 43%;
+  width: 100%;
+  text-align: center;
+}
+.titulo {
+  background: #111;
+  color: white;
+  text-transform: uppercase;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}

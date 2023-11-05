@@ -1,0 +1,36 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+fieldset{
+    width: 30em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    margin: 1em 0;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input[type="text"]{ /* apenas input do tipo text, nesse caso não precisa, está apenas como exemplo */
+    width: 20em;
+}
+input.radio, input.checkbox, input.submit{ 
+    width: auto;
+}
+
+
+textarea{
+    width: 20em;
+    height: 10em;
+}
+
+.radio{
+    margin-right: 1em;
+}

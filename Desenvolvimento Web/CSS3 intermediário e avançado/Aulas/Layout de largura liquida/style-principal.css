@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container{
+    border: 1px solid dodgerblue;
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    min-width: 1000px;
+}
+#marca{
+    height: 100px;
+    width: 100%;
+    background: #9e9e9e;
+    text-align: center;
+    line-height: 100px;
+}
+#conteudo{
+    width: 90%;
+    float: right;
+}
+#navegacao{
+    width: 8%;
+    float: left;
+    background: #d1d1d1;
+    min-width: 100px;
+}
+#rodape {
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+    text-align: center;
+}

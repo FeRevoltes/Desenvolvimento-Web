@@ -1,0 +1,28 @@
+.conteudo1{
+    border: 1px solid crimson;
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index:  0;
+}
+.conteudo2{
+    border: 1px solid blueviolet;
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index:  2;
+}
+.conteudo3{
+    border: 1px solid deepskyblue;
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    z-index:  1;
+}

@@ -1,0 +1,15 @@
+#navegacao ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#navegacao ul a{
+    color: crimson;
+    display: block;
+    text-indent: 20px;
+    line-height: 40px;
+    text-decoration: none;
+}
+#navegacao ul a:hover{
+    background: white;
+}

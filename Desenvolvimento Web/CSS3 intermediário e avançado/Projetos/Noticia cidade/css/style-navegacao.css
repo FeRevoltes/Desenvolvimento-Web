@@ -1,0 +1,38 @@
+/* navegação */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul{
+    background:  #b10333;
+    margin-top: 35px;
+    float: left; /* a ul precisa flutuar com li para aparecer o backgrund */
+}
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    background: url(../imagens/divisor.png) no-repeat left center;
+    color: white;
+    display: block;
+    font-size: 0.9em;
+    padding: 0.5em 3.8em;
+    line-height: 1.8em;
+    text-decoration: none;
+}
+#topo ul .primeiro a{ /* colocado 'a' para remover apenas o background do 'a', sem o 'a' iria remover o background de 'li'*/
+    background: none;
+}
+#topo ul a:hover{
+    color: #60101d;
+}
+
+#navegacao a#atual{ /* usando navegacao selecionar apenas a id home na navegacao */
+    background: #DE003E;
+    color: white;
+    cursor: text;
+}

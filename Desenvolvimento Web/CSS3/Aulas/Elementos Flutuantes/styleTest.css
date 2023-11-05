@@ -1,0 +1,35 @@
+#principal{
+    border: 1px solid crimson;
+    background:lightgreen;
+}
+
+/* .conteudo0{
+    background:palegreen;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+} */
+.conteudo{
+    background: deepskyblue;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: right;
+}
+.conteudo1{
+    background:crimson;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left; /* float faz com que a caixa fluteue, voce pode mudar o lado e sobrepor uma caixa em cima da outra que nao estiver flutuando*/
+}
+.conteudo4{
+    border: 1px solid rebeccapurple;
+    width: 200px;
+    height: 200px;
+}
+.clear{ /* limpa o fluxo, tira a flutuação das caixas */
+    clear: both;
+}

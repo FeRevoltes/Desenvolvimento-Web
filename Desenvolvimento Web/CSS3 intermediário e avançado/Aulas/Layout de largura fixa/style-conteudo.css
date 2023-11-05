@@ -1,0 +1,13 @@
+#conteudo-principal{   
+    width: 640px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+#conteudo-secundario{
+    width: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+    background: #d1d1d1;
+}

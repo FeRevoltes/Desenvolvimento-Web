@@ -1,0 +1,16 @@
+#conteudo-principal{ 
+    border: 1px solid crimson;  
+    width: 64%;
+    float: left;
+}
+#conteudo-secundario{
+    width: 34%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#conteudo h2,
+#conteudo p{
+    padding: 5px;
+    margin: 5px;
+}
