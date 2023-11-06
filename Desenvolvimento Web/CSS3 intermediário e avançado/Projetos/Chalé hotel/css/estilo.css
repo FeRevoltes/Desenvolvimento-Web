@@ -160,6 +160,7 @@ ul#navegacao a:hover {
   background: url(../Imagens/ornamento.png) center right no-repeat;
   color: #615b2b;
   font-size: 1.1em;
+  text-transform: uppercase;
   padding: 5px 0;
 }
 #lista-conteudo li:hover{

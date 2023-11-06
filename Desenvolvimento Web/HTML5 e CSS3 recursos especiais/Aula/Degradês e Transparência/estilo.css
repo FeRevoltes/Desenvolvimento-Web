@@ -1,0 +1,24 @@
+body {
+  background: #eeeeee;
+}
+
+#caixa {
+  background: url(Imagem/camera.png);
+  width: 300px;
+  height: 300px;
+}
+#caixa h1 {
+  background: rgba(255,155,255,0.8); /* Alpha define a transparência de 0 á 1*/
+}
+#caixa2 {
+  background: linear-gradient(180deg, red, #8a2be2);
+  /* define um degradê, para varias direções como to right bottom, ou em graus como 80deg*/
+  width: 300px;
+  height: 300px;
+}
+
+#caixa3 {
+  background: radial-gradient(red, blue);
+  width: 300px;
+  height: 300px;
+}
