@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- formulário -->
+    <form>
+      <label for="nome">Nome</label>
+      <!-- o campo receber automaticamente o foco quando a página é carregada -->
+      <input type="text" name="nome" id="nome" required autofocus />
+      <br /><br />
+
+      <label for="email">Email</label>
+      <!-- required faz com que seja necessário prencher esse campo -->
+      <input type="email" name="email" id="email" required placeholder="ex:email@mail.com"/>
+      <br /><br />
+
+      <label for="numero">Número</label>
+      <!-- mínimo e máximo número permitido -->
+      <input type="number" name="numero" id="numero" min="5" max="10" />
+      <br /><br />
+
+      <label for="url">Url</label>
+      <input type="url" name="url" id="url" placeholder="ex:http://www.site.com">
+      <br /><br />
+
+      <label for="pesquisa">Pesquisa</label>
+      <input type="search" id="pesquisa">
+      <br /><br />
+
+      <label for="range">Range</label>
+      <!-- value define o valor fixo do campo quando carregar a página -->
+      <input type="range"  id="range" min="1" max="5" value="3">
+      <br /><br />
+
+      <label for="data">Data</label>
+      <input type="date"  id="data">
+      <br /><br />
+
+      <label for="cor">Cor</label>
+      <input type="color" id="cor">
+
+      <input type="submit" value="enviar" />
+    </form>
+  </body>
+</html>
