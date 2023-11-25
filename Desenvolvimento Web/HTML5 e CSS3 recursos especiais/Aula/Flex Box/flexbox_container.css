@@ -1,0 +1,25 @@
+#conteudo {
+  background: #dcdcdc;
+  height: 600px;
+  display: flex; /* para ativer o flex */
+
+  /* row | row-reverse | column | column-reverse */
+  flex-direction: row;
+
+  /* nowrap | wrapp | wrap-reverse */
+  flex-wrap: wrap; /* quando não couber os itens, wrap pode quebrar os itens para a proxima linha */
+
+  /* flex-star | flex-end | center | space-between | space-around | space-evenly*/
+  justify-content: space-evenly;
+
+  /* stretch | center | flex-start | flex-end | baseline */
+  align-items: flex-start;
+}
+
+.item {
+  background: white;
+  border: 1px solid gray;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+}

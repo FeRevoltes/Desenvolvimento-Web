@@ -1,0 +1,43 @@
+#conteudo {
+  background: #dcdcdc;
+  height: 600px;
+  display: flex;
+}
+
+.item {
+  background: white;
+  border: 1px solid gray;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+.item1 {
+  flex-grow: 1; /* define a proporção de espaço ocupado pelo item. */
+}
+.item2 {
+  flex-grow: 2;
+  flex-basis: 200px; /* Define o tamanho inicial do item flexível ao longo do eixo principal antes de qualquer espaço adicional ser distribuído ou encolhido */
+}
+.item3 {
+  flex-shrink: 1; /* quanto maior o numero, menor espaço ele ocupa */
+}
+.item4 {
+  flex-shrink: 3;
+}
+
+/* define a ordem, o padrão dos itens é 0 */
+/* .order1 {
+  order: 1;
+}
+.order2 {
+  order: 2;
+}
+.order3 {
+  order: 3;
+}
+.order4 {
+  order: 4;
+}
+.order {
+  order: -1;
+} */
