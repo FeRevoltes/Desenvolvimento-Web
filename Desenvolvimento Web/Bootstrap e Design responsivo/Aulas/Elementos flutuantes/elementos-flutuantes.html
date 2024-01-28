@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Elementos flutuantes</title>
+  </head>
+  <body>
+    <!-- Elementos Flutuantes -->
+    <div style="border: 1px solid crimson" class="clearfix">
+      <div class="bg-success float-start">float left</div>
+      <div class="bg-warning float-end">float right</div>
+    </div>
+
+    <!-- Posicionamento fixo - top e bottom -->
+    <h1 class="bg-success fixed-bottom">Conteúdo Fixo</h1>
+
+    <!-- Float responsivo - float-<tela>-<direcao>
+      tela: sm, md, lg, xl
+      alinhamento: left, right-->
+    <p class="float-sm-end">*tela &gt;= 576px</p>
+    <!-- Small Large -->
+    <p class="float-md-end">*tela &gt;= 762px</p>
+    <!--  Medium Large -->
+    <p class="float-lg-end">*tela &gt;= 992px</p>
+    <!-- Large -->
+    <p class="float-xlss-end">*tela &gt;= 1200px</p>
+    <!-- Extra Large -->
+
+    <h1>Conteudo 1</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+      scelerisque lectus ut eleifend iaculis. Pellentesque vestibulum ultrices
+      massa nec dignissim. Mauris vitae arcu eu nibh porta bibendum nec nec
+      nisi. Etiam sagittis viverra varius. Aliquam hendrerit sem quis erat
+      venenatis eleifend. Orci varius natoque penatibus et magnis dis parturient
+      montes, nascetur ridiculus mus. Pellentesque purus diam, cursus sit amet
+      diam ut, vestibulum lacinia risus. Ut dictum arcu risus, sed luctus sapien
+      pellentesque at. Vivamus bibendum, felis dapibus ullamcorper suscipit,
+      nunc leo imperdiet diam, eget placerat dolor lectus euismod tellus. Donec
+      congue nec dolor et accumsan. Maecenas sit amet viverra ante, sit amet
+      posuere magna. Pellentesque habitant morbi tristique senectus et netus et
+      malesuada fames ac turpis egestas. Pellentesque ornare magna sed augue
+      pellentesque scelerisque. Nulla ex dui, malesuada a rhoncus ut, volutpat
+      quis nulla.
+    </p>
+
+    <!-- Colocar no topo (sticky) -->
+    <ul class="list-inline bg-warning sticky-top">
+      <li class="list-inline-item">Item 1</li>
+      <li class="list-inline-item">Item 2</li>
+      <li class="list-inline-item">Item 3</li>
+    </ul>
+
+    <h1>Conteudo 2</h1>
+    <p>
+      Proin vitae molestie massa. Proin id eleifend ex. Fusce lobortis, mi nec
+      ullamcorper eleifend, felis nisi vestibulum nibh, eu viverra mauris ex a
+      magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+      per inceptos himenaeos. Morbi sit amet felis imperdiet enim feugiat
+      sollicitudin id condimentum orci. Pellentesque dictum, nisi in cursus
+      ultricies, justo ligula auctor orci, sit amet rutrum enim nulla id lorem.
+      Donec at felis dolor. Nulla tempor, orci et ultrices viverra, eros ligula
+      aliquam lacus, eget molestie mauris erat eu orci. Nam eget turpis ac nunc
+      egestas vestibulum sed vel sem. Morbi id lobortis nisl. Suspendisse luctus
+      ligula sit amet nulla commodo, a posuere libero cursus. Sed erat tortor,
+      porta eu velit quis, fringilla malesuada risus. Proin sit amet imperdiet
+      dolor. Integer quis mauris nec velit finibus pellentesque vitae sed augue.
+      Aenean vel consequat nibh. Proin sit amet odio suscipit, auctor massa eu,
+      volutpat turpis.
+    </p>
+
+    <p>
+      Nam cursus sed sem eu mollis. Vestibulum vestibulum placerat dolor, sit
+      amet venenatis justo imperdiet sed. Aenean in faucibus augue, ut accumsan
+      risus. Aliquam ornare urna non quam rhoncus, sit amet tristique felis
+      vestibulum. Aliquam dapibus ligula sit amet ipsum condimentum, sed
+      fermentum ex volutpat. Morbi tempus efficitur tincidunt. Ut facilisis
+      velit at condimentum congue. In et ullamcorper sapien, vitae malesuada
+      urna. Suspendisse nec porta libero. Curabitur ultricies leo enim, eu
+      elementum nulla rhoncus vitae. Etiam ac fringilla tellus. Cras at ipsum
+      suscipit, pulvinar erat sed, varius sem. Vivamus pulvinar orci volutpat ex
+      ultrices, quis tempor sapien pulvinar. Pellentesque ac faucibus purus.
+    </p>
+
+    <p>
+      Nam ut ipsum augue. Vivamus vulputate in risus at vulputate. Aliquam sed
+      porttitor nibh. Proin finibus neque sit amet odio eleifend aliquet.
+      Aliquam erat volutpat. Vivamus tempus risus at urna facilisis, id egestas
+      purus imperdiet. Etiam gravida sed libero sed consectetur. Donec sodales,
+      urna non maximus suscipit, nisl odio dignissim tellus, a iaculis sem urna
+      quis mauris. Proin quis venenatis tortor. Curabitur purus nisl, porttitor
+      vel lobortis non, ultricies vitae eros. Integer feugiat commodo dignissim.
+    </p>
+
+    <h1>Conteudo 3</h1>
+    <p>
+      Proin vitae molestie massa. Proin id eleifend ex. Fusce lobortis, mi nec
+      ullamcorper eleifend, felis nisi vestibulum nibh, eu viverra mauris ex a
+      magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+      per inceptos himenaeos. Morbi sit amet felis imperdiet enim feugiat
+      sollicitudin id condimentum orci. Pellentesque dictum, nisi in cursus
+      ultricies, justo ligula auctor orci, sit amet rutrum enim nulla id lorem.
+      Donec at felis dolor. Nulla tempor, orci et ultrices viverra, eros ligula
+      aliquam lacus, eget molestie mauris erat eu orci. Nam eget turpis ac nunc
+      egestas vestibulum sed vel sem. Morbi id lobortis nisl. Suspendisse luctus
+      ligula sit amet nulla commodo, a posuere libero cursus. Sed erat tortor,
+      porta eu velit quis, fringilla malesuada risus. Proin sit amet imperdiet
+      dolor. Integer quis mauris nec velit finibus pellentesque vitae sed augue.
+      Aenean vel consequat nibh. Proin sit amet odio suscipit, auctor massa eu,
+      volutpat turpis.
+    </p>
+
+    <p>
+      Nam cursus sed sem eu mollis. Vestibulum vestibulum placerat dolor, sit
+      amet venenatis justo imperdiet sed. Aenean in faucibus augue, ut accumsan
+      risus. Aliquam ornare urna non quam rhoncus, sit amet tristique felis
+      vestibulum. Aliquam dapibus ligula sit amet ipsum condimentum, sed
+      fermentum ex volutpat. Morbi tempus efficitur tincidunt. Ut facilisis
+      velit at condimentum congue. In et ullamcorper sapien, vitae malesuada
+      urna. Suspendisse nec porta libero. Curabitur ultricies leo enim, eu
+      elementum nulla rhoncus vitae. Etiam ac fringilla tellus. Cras at ipsum
+      suscipit, pulvinar erat sed, varius sem. Vivamus pulvinar orci volutpat ex
+      ultrices, quis tempor sapien pulvinar. Pellentesque ac faucibus purus.
+    </p>
+
+    <p>
+      Nam ut ipsum augue. Vivamus vulputate in risus at vulputate. Aliquam sed
+      porttitor nibh. Proin finibus neque sit amet odio eleifend aliquet.
+      Aliquam erat volutpat. Vivamus tempus risus at urna facilisis, id egestas
+      purus imperdiet. Etiam gravida sed libero sed consectetur. Donec sodales,
+      urna non maximus suscipit, nisl odio dignissim tellus, a iaculis sem urna
+      quis mauris. Proin quis venenatis tortor. Curabitur purus nisl, porttitor
+      vel lobortis non, ultricies vitae eros. Integer feugiat commodo dignissim.
+    </p>
+  </body>
+</html>
