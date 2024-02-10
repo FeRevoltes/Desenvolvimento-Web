@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Formulários bootstrap</title>
+  </head>
+  <body style="margin: auto; max-width: 800px; padding-top: 10px">
+    <!-- Formulários: form-control-<> sm, lg -->
+    <form>
+      <!-- caixas de texto -->
+      <div class="mb-3">
+        <label for="usuario" class="form-label">Usuário</label>
+        <input
+          type="text"
+          name="usuario"
+          id="usuario"
+          placeholder="Nome de usuário"
+          class="form-control form-control-lg"
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Digite seu email"
+          class="form-control form-control-sm"
+        />
+        <small class="form-text">Email será validado</small>
+      </div>
+
+      <!-- select -->
+      <div class="mb-3">
+        <label for="num" class="form-label">Números</label>
+        <select class="form-select" aria-label="Exemplo de select" id="num">
+          <option selected>Selecione um número</option>
+          <option value="1">Um</option>
+          <option value="2">Dois</option>
+          <option value="3">Três</option>
+        </select>
+      </div>
+
+      <!-- textarea -->
+      <div class="form-floating mb-3">
+        <textarea
+          id="comentario"
+          placeholder="Deixe um comentario"
+          class="form-control"
+        ></textarea>
+        <label for="comentario">Comentário</label>
+        <!-- o label ficou embaixo do textarea para que o  Comentário se escondesse na hora te escrever o texto  -->
+      </div>
+
+      <!-- file input-->
+      <div class="mb-3">
+        <label for="arquivo" class="form-label">Escolha um arquivo</label>
+        <input type="file" id="arquivo" class="form-control" />
+      </div>
+
+      <!-- Custom file input -->
+      <div class="input-group mb-3">
+        <input type="file" id="customfile" class="form-control" />
+        <label for="customfile" class="input-group-text">Upload</label>
+      </div>
+
+      <!-- Multplos arquivos -->
+      <div class="mb-3">
+        <label for="multfile" class="form-label">Multiplos arquivos</label>
+        <input type="file" class="form-control" id="multfile" multiple />
+      </div>
+
+      <!-- Desativado -->
+      <div class="mb-3">
+        <label for="disablefile" class="form-label">Upload desativado</label>
+        <input type="file" id="disablefile" class="form-control" disabled />
+      </div>
+
+      <!-- range -->
+      <div class="mb-3">
+        <label for="range" class="form-label">Distância</label>
+        <input
+          type="range"
+          id="range"
+          class="form-range"
+          min="0"
+          max="5"
+          step="0.5"
+        />
+      </div>
+
+      <!-- button -->
+      <input type="submit" class="btn btn-primary" value="Salvar" />
+    </form>
+    <br /><br />
+
+    <form>
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control me-2"
+          placeholder="Digite seu usuário"
+        />
+        <input
+          type="text"
+          class="form-control me-2"
+          placeholder="Digite sua senha"
+        />
+        <input type="submit" value="Logar" class="btn btn-primary rounded" />
+      </div>
+    </form>
+    <br /><br />
+
+    <form>
+      <div class="mb-3">
+        <label for="user-email" class="form-label">Email</label>
+        <input type="email" id="user-email" class="form-control is-valid" />
+        <div class="valid-feedback">Email válido</div>
+
+        <label for="password" class="form-label mt-3">Senha</label>
+        <input type="password" id="password" class="form-control is-invalid" />
+        <div class="invalid-feedback">Senha inválida</div>
+      </div>
+      <input type="submit" value="Logar" class="btn btn-primary mb-5" />
+    </form>
+  </body>
+</html>
