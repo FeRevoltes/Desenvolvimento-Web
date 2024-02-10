@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Listas</title>
+  </head>
+  <body style="margin: 15px">
+    <!-- Lista -->
+    <ul class="list-group">
+      <li class="list-group-item">Lista 1</li>
+      <li class="list-group-item">Lista 2</li>
+      <li class="list-group-item">Lista 3</li>
+      <li class="list-group-item">Lista 4</li>
+    </ul>
+    <br /><br />
+
+    <!-- Lista com a classe flush-->
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Lista 1</li>
+      <li class="list-group-item">Lista 2</li>
+      <li class="list-group-item">Lista 3</li>
+      <li class="list-group-item">Lista 4</li>
+    </ul>
+    <br /><br />
+
+    <!-- Listas com link -->
+    <ul class="list-group">
+      <a href="" class="list-group-item">Lista link 1</a>
+      <a href="" class="list-group-item">Lista link 2</a>
+      <a href="" class="list-group-item active">Lista link 3</a>
+      <a href="" class="list-group-item">Lista link 4</a>
+    </ul>
+    <br /><br />
+
+    <!-- Listas com classes contextuais
+    classes: list-group-item-<> primary, secondary, success, info, warning, danger, light, dark-->
+    <ul class="list-group">
+      <li class="list-group-item list-group-item-action">lista Normal</li>
+      <li
+        class="list-group-item list-group-item-primary list-group-item-action"
+      >
+        Lista primary
+      </li>
+      <li class="list-group-item list-group-item-info list-group-item-action">
+        Lista info
+      </li>
+      <li
+        class="list-group-item list-group-item-success list-group-item-action"
+      >
+        Lista success
+      </li>
+      <li
+        class="list-group-item list-group-item-warning list-group-item-action"
+      >
+        Lista warning
+      </li>
+      <li class="list-group-item list-group-item-danger list-group-item-action">
+        Lista danger
+      </li>
+      <li class="list-group-item list-group-item-light list-group-item-action">
+        Lista light
+      </li>
+      <li
+        class="list-group-item list-group-item-secondary list-group-item-action"
+      >
+        Lista secondary
+      </li>
+      <li class="list-group-item list-group-item-dark list-group-item-action">
+        Lista dark
+      </li>
+    </ul>
+    <br /><br />
+
+    <!-- badge -->
+    <ul class="list-group">
+      <li class="list-group-item">
+        Caixa de entrada <span class="badge bg-danger">120</span>
+      </li>
+      <li class="list-group-item">
+        Rascunho <span class="badge bg-info">6</span>
+      </li>
+      <li class="list-group-item">
+        Spam <span class="badge bg-warning">15</span>
+      </li>
+      <li class="list-group-item">
+        Importante <span class="badge bg-primary">3</span>
+      </li>
+    </ul>
+    <br /><br />
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="" class="">Home</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Library</li>
+      </ol>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="" class="">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="" class="">Library</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Data</li>
+      </ol>
+    </nav>
+  </body>
+</html>
